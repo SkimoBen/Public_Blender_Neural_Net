@@ -5,7 +5,7 @@ from PIL import Image
 
 def make_image_array():
     # Load and preprocess image using PIL
-    image_path = "/Users/benpearman/Desktop/Creative/Fun Code/MNIST Model/7.jpg"
+    image_path = "YOUR INPUT IMAGE PATH"
 
     # Open the image file
     with Image.open(image_path) as img:
@@ -18,7 +18,7 @@ def make_image_array():
     return image_array
 
 # Full path to where your weights are saved
-path_to_weights = "/Users/benpearman/Desktop/Creative/Fun Code/MNIST Model/"
+path_to_weights = "PATH TO YOUR MODEL WEIGHTS"
 
 # Load weights and biases
 loaded_weights = []
