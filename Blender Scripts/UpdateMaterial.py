@@ -6,8 +6,8 @@ import random
 import math
 import tensorflow as tf
 
-image_path = "D:/Blender/Blender_NeuralNet/TestImages/3.jpeg"
-path_to_model = "D:/Blender/Blender_NeuralNet/mnist_model.h5"
+image_path = "PATH TO YOUR IMAGES"
+path_to_model = "PATH TO YOUR MODEL FILE (Should be .h5 format)"
 
 # Load the model using TensorFlow
 model = tf.keras.models.load_model(path_to_model)
